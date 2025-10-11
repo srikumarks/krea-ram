@@ -7,16 +7,11 @@
 set page(
    paper: "a4",
    margin: (top: 3cm),
-   background: grid(
-      columns: (120pt, 1fr, 120pt),
-      align: top,
-      rows: (5pt, 60pt, 1fr),
-      gutter: 10pt,
-      grid.cell(colspan:3,[]),
-      image("ram-logo.jpeg", width: 100pt),
-      [],
-      image("krea-logo.png", width: 100pt)
-   )
+   background: {
+      place(center+horizon, image("ram-logo.jpeg", width: 150%))
+      place(center+horizon, rect(width: 100%, height: 100%, fill: rgb(255,255,255,90%),stroke: none))
+      place(top+right, image("krea-logo.png", width: 120pt))
+   } 
 )
 let title = [Krea - RAM - Maths Circle - Session #session]
 set document(
