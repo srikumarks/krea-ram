@@ -16,8 +16,8 @@ set page(
 let title = [Krea - RAM - Maths Circle - Session #session]
 set document(
    title: title,
-   author: "Srikumar K. S.",
-   date: datetime(year: 2025, month: 10, day: 5)
+   author: faculty,
+   date: date
 )
 set heading(numbering: "1.")
 

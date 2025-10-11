@@ -1,6 +1,6 @@
 #import "ram.typ": ram
 #show: ram.with(
-    faculty: [Srikumar K. S.],
+    faculty: "Srikumar K. S.",
     date: datetime(year: 2025, month: 10, day: 5),
     session: [1]
 )
