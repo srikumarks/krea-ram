@@ -21,11 +21,26 @@ permutations and the permutation group.
   solutions of the Sudoku board?
 + Are all solutions of the Sudoku board transformable between each other?
   Can you construct a counter example?
-+ If $C_(m n)$ represents swapping the columns $m$ and $n$ and similarly $R_(m n)$,
-  how can we write all the solution preserving swappings?
-+ Does the ordering matter for doing a sequence of these swappings? For which swappings
-  does the ordering matter and are there any for which the ordering doesn't matter?
-  For example is $C_(m n)R_(j k) = R_(j k)C_(m n)$?
++ If $C_(m n)$ represents swapping the columns $m$ and $n$ and similarly $R_(m
+  n)$ for the rows, how can we write all the solution preserving swappings? Furthermore,
+  if $P_(m n)$ represents exchanging $m$ and $n$ wherever they occur on the board,
+  can we construct any ordering of $123456789$ by applying a sequence of $P_(m n)$
+  operations?
++ Can we construct any ordering of the columns using an appropriate sequence of
+  $C_(m n)$?
++ Does the ordering matter for doing a sequence of these swappings? For which
+  swappings does the ordering matter and are there any for which the ordering
+  doesn't matter? For example is $C_(m n)R_(j k) = R_(j k)C_(m n)$?
++ Is the set of $C_(m n)$ and $R_(m n)$ and combinations of them sufficient to
+  describe all solution-preserving transformations? They certainly cover reflections
+  $C_(1 9)C_(2 8)C_(3 7)C_(4 6)$ and correspondingly for rows. Can you express
+  rotations also with them? What about diagonal reflections? Will your answers differ 
+  if the board were filled with numbers $1 dots.h.c 81$ instead of the usual
+  Sudoku set of numbers $9 times [1,9]$?
+
+*Notation:* Considering permutations of a sequence, for example, $1234$, we
+write the permutation to $4123$ as $lr((1 2 3 4))$. This is called a "cyclic
+permutation". So a swap of positions 2 and 4 in $1234$ is written as $lr((2 4))$.
 
 = Euler's problem
 
@@ -36,5 +51,3 @@ permutations and the permutation group.
 + Which ones did you manage to solve and which ones did you have difficulty with?
 + What were your approaches/strategies for solving it for various $n$.
   
-
-
