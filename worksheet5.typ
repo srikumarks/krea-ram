@@ -1,9 +1,14 @@
 #import "ram.typ": ram
 #show: ram.with(
     faculty: "Srikumar K. S.",
-    date: datetime(year: 2025, month: 11, day: 15),
+    date: datetime(year: 2025, month: 11, day: 16),
     session: [5]
 )
+
+= References
+
++ #link("http://recursivedrawing.com")[#text(fill: blue, [Recursive Drawing])]
++ "Little Harmonic Labyrinth", from #link("https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach")[#text(fill: blue, [Gödel, Escher, Bach: An Eternal Golden Braid]) by Douglas Hofstadter]
 
 = Problems
 
